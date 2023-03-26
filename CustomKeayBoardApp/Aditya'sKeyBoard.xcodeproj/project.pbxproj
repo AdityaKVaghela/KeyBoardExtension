@@ -1,0 +1,555 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		487E098527D8D0B00015394B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 487E098327D8D0B00015394B /* Main.storyboard */; };
+		487E098A27D8D0B10015394B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 487E098827D8D0B10015394B /* LaunchScreen.storyboard */; };
+		487E099827D8D1490015394B /* KeyboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 487E099727D8D1490015394B /* KeyboardViewController.swift */; };
+		487E099C27D8D1490015394B /* AdityasKeyBoard.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 487E099527D8D1490015394B /* AdityasKeyBoard.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		487E09A427D8D2D40015394B /* KeyBoardView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 487E09A327D8D2D40015394B /* KeyBoardView.xib */; };
+		48806ECB27D9B67F00D59A97 /* KeyBoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48806ECA27D9B67F00D59A97 /* KeyBoardView.swift */; };
+		48A3D94C27D9F43800CCFC60 /* KeyButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48A3D94B27D9F43800CCFC60 /* KeyButton.swift */; };
+		48A3D94E27D9FCA700CCFC60 /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48A3D94D27D9FCA700CCFC60 /* AppConstants.swift */; };
+		48BC336928084E5E00ACAA74 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 48BC336728084E5E00ACAA74 /* Settings.bundle */; };
+		48BC336B28084EF200ACAA74 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 48BC336A28084EF200ACAA74 /* Settings.bundle */; };
+		48C7DD6A28093574006ABB05 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 487E098627D8D0B10015394B /* Assets.xcassets */; };
+		48C7DD6B280936A3006ABB05 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 487E098127D8D0B00015394B /* ViewController.swift */; };
+		48C7DD6C280936A6006ABB05 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 487E097D27D8D0B00015394B /* AppDelegate.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		487E099A27D8D1490015394B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 487E097227D8D0B00015394B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 487E099427D8D1490015394B;
+			remoteInfo = keaBoardTridhya;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		487E09A027D8D1490015394B /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 12;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				487E099C27D8D1490015394B /* AdityasKeyBoard.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		487E097A27D8D0B00015394B /* Aditya'sKeyBoard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Aditya'sKeyBoard.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		487E097D27D8D0B00015394B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		487E098127D8D0B00015394B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		487E098427D8D0B00015394B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		487E098627D8D0B10015394B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		487E098927D8D0B10015394B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		487E098B27D8D0B10015394B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		487E099527D8D1490015394B /* AdityasKeyBoard.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = AdityasKeyBoard.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		487E099727D8D1490015394B /* KeyboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardViewController.swift; sourceTree = "<group>"; };
+		487E099927D8D1490015394B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		487E09A327D8D2D40015394B /* KeyBoardView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KeyBoardView.xib; sourceTree = "<group>"; };
+		48806ECA27D9B67F00D59A97 /* KeyBoardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyBoardView.swift; sourceTree = "<group>"; };
+		48A3D94B27D9F43800CCFC60 /* KeyButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyButton.swift; sourceTree = "<group>"; };
+		48A3D94D27D9FCA700CCFC60 /* AppConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConstants.swift; sourceTree = "<group>"; };
+		48BC336728084E5E00ACAA74 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		48BC336A28084EF200ACAA74 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		487E097727D8D0B00015394B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		487E099227D8D1490015394B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		487E097127D8D0B00015394B = {
+			isa = PBXGroup;
+			children = (
+				487E097C27D8D0B00015394B /* Aditya'sKeyBoard */,
+				487E099627D8D1490015394B /* AdityasKeyBoard */,
+				487E097B27D8D0B00015394B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		487E097B27D8D0B00015394B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				487E097A27D8D0B00015394B /* Aditya'sKeyBoard.app */,
+				487E099527D8D1490015394B /* AdityasKeyBoard.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		487E097C27D8D0B00015394B /* Aditya'sKeyBoard */ = {
+			isa = PBXGroup;
+			children = (
+				487E097D27D8D0B00015394B /* AppDelegate.swift */,
+				487E098127D8D0B00015394B /* ViewController.swift */,
+				487E098327D8D0B00015394B /* Main.storyboard */,
+				487E098627D8D0B10015394B /* Assets.xcassets */,
+				487E098827D8D0B10015394B /* LaunchScreen.storyboard */,
+				487E098B27D8D0B10015394B /* Info.plist */,
+				48BC336A28084EF200ACAA74 /* Settings.bundle */,
+			);
+			path = "Aditya'sKeyBoard";
+			sourceTree = "<group>";
+		};
+		487E099627D8D1490015394B /* AdityasKeyBoard */ = {
+			isa = PBXGroup;
+			children = (
+				487E099727D8D1490015394B /* KeyboardViewController.swift */,
+				487E099927D8D1490015394B /* Info.plist */,
+				487E09A327D8D2D40015394B /* KeyBoardView.xib */,
+				48806ECA27D9B67F00D59A97 /* KeyBoardView.swift */,
+				48A3D94B27D9F43800CCFC60 /* KeyButton.swift */,
+				48A3D94D27D9FCA700CCFC60 /* AppConstants.swift */,
+				48BC336728084E5E00ACAA74 /* Settings.bundle */,
+			);
+			path = AdityasKeyBoard;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		487E097927D8D0B00015394B /* Aditya'sKeyBoard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 487E098E27D8D0B10015394B /* Build configuration list for PBXNativeTarget "Aditya'sKeyBoard" */;
+			buildPhases = (
+				487E097627D8D0B00015394B /* Sources */,
+				487E097727D8D0B00015394B /* Frameworks */,
+				487E097827D8D0B00015394B /* Resources */,
+				487E09A027D8D1490015394B /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				487E099B27D8D1490015394B /* PBXTargetDependency */,
+			);
+			name = "Aditya'sKeyBoard";
+			productName = CustomKeayBoardApp;
+			productReference = 487E097A27D8D0B00015394B /* Aditya'sKeyBoard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		487E099427D8D1490015394B /* AdityasKeyboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 487E099D27D8D1490015394B /* Build configuration list for PBXNativeTarget "AdityasKeyboard" */;
+			buildPhases = (
+				487E099127D8D1490015394B /* Sources */,
+				487E099227D8D1490015394B /* Frameworks */,
+				487E099327D8D1490015394B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AdityasKeyboard;
+			productName = keaBoardTridhya;
+			productReference = 487E099527D8D1490015394B /* AdityasKeyBoard.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		487E097227D8D0B00015394B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					487E097927D8D0B00015394B = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					487E099427D8D1490015394B = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 487E097527D8D0B00015394B /* Build configuration list for PBXProject "Aditya'sKeyBoard" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 487E097127D8D0B00015394B;
+			productRefGroup = 487E097B27D8D0B00015394B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				487E097927D8D0B00015394B /* Aditya'sKeyBoard */,
+				487E099427D8D1490015394B /* AdityasKeyboard */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		487E097827D8D0B00015394B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48BC336B28084EF200ACAA74 /* Settings.bundle in Resources */,
+				487E098A27D8D0B10015394B /* LaunchScreen.storyboard in Resources */,
+				487E098527D8D0B00015394B /* Main.storyboard in Resources */,
+				48C7DD6A28093574006ABB05 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		487E099327D8D1490015394B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48BC336928084E5E00ACAA74 /* Settings.bundle in Resources */,
+				487E09A427D8D2D40015394B /* KeyBoardView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		487E097627D8D0B00015394B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48C7DD6C280936A6006ABB05 /* AppDelegate.swift in Sources */,
+				48C7DD6B280936A3006ABB05 /* ViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		487E099127D8D1490015394B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48A3D94C27D9F43800CCFC60 /* KeyButton.swift in Sources */,
+				487E099827D8D1490015394B /* KeyboardViewController.swift in Sources */,
+				48806ECB27D9B67F00D59A97 /* KeyBoardView.swift in Sources */,
+				48A3D94E27D9FCA700CCFC60 /* AppConstants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		487E099B27D8D1490015394B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 487E099427D8D1490015394B /* AdityasKeyboard */;
+			targetProxy = 487E099A27D8D1490015394B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		487E098327D8D0B00015394B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				487E098427D8D0B00015394B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		487E098827D8D0B10015394B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				487E098927D8D0B10015394B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		487E098C27D8D0B10015394B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		487E098D27D8D0B10015394B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		487E098F27D8D0B10015394B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Aditya'sKeyBoard/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Aditya'sKeyBoard";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tridhya.AdityasKeyboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		487E099027D8D0B10015394B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Aditya'sKeyBoard/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Aditya'sKeyBoard";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tridhya.AdityasKeyboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		487E099E27D8D1490015394B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AdityasKeyBoard/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = A;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tridhya.AdityasKeyboard.keaBoardTridhya;
+				PRODUCT_NAME = AdityasKeyBoard;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		487E099F27D8D1490015394B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AdityasKeyBoard/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = A;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tridhya.AdityasKeyboard.keaBoardTridhya;
+				PRODUCT_NAME = AdityasKeyBoard;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		487E097527D8D0B00015394B /* Build configuration list for PBXProject "Aditya'sKeyBoard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				487E098C27D8D0B10015394B /* Debug */,
+				487E098D27D8D0B10015394B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		487E098E27D8D0B10015394B /* Build configuration list for PBXNativeTarget "Aditya'sKeyBoard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				487E098F27D8D0B10015394B /* Debug */,
+				487E099027D8D0B10015394B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		487E099D27D8D1490015394B /* Build configuration list for PBXNativeTarget "AdityasKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				487E099E27D8D1490015394B /* Debug */,
+				487E099F27D8D1490015394B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 487E097227D8D0B00015394B /* Project object */;
+}
