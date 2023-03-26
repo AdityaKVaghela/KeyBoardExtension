@@ -29,14 +29,14 @@ class KeyboardViewController: UIInputViewController {
         
         let desiredHeight:CGFloat!
         if UIDevice.current.userInterfaceIdiom == .phone{
-            desiredHeight = 280
+            desiredHeight = 230
             
         }else{
             if UIDevice.current.orientation == .portrait{
-                desiredHeight = 280
+                desiredHeight = 230
                 
             }else {
-                desiredHeight = 280
+                desiredHeight = 230
                 
             }
         }
